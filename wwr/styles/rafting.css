@@ -9,7 +9,6 @@
 h1{
     color: rgba(var(--primary-color));
     font-family: "Rubik", serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
@@ -17,14 +16,12 @@ h1{
 h2{
     color: rgba(var(--secondary-color));
     font-family: "Rubik", serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
 
 p {
     font-family: "Roboto", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:

@@ -1,20 +1,20 @@
 :root{
-    --primary-color: 135, 168, 120;
-    --secondary-color: 176, 188, 152;
-    --accent1-color: 199, 204, 185;
-    --accent2-color: 202, 226, 188;
+    --primary-color: rgba(135, 168, 120);
+    --secondary-color: rgba(176, 188, 152);
+    --accent1-color: rgba(199, 204, 185);
+    --accent2-color: rgba(202, 226, 188);
     --oppacity:0.7;
 }
 
 h1{
-    color: rgba(var(--primary-color));
+    color: var(--primary-color);
     font-family: "Rubik", serif;
     font-weight: 700;
     font-style: normal;
 }
 
 h2{
-    color: rgba(var(--secondary-color));
+    color: var(--secondary-color);
     font-family: "Rubik", serif;
     font-weight: 700;
     font-style: normal;
@@ -47,7 +47,7 @@ p {
 
 .hero article{
     position: absolute;
-    background-color: rgba(var(--primary-color), var(--oppacity));
+    background-color: rgba(135, 168, 120, 0.7);
     top: 250px;
     left: 50px;
     width: 700px;

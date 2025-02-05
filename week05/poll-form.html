@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something</title>
+    <meta name="description" content="Form project">
+    <meta name="author" content="Rian Cardoso Christani">
+    <link href="poll-form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Rian Christani | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="input_type_text">
+                    <div class="form-item">
+                        <div class="form-item column2">
+                            <label for="fullname">Full name: </label><br>
+                            <input type="text" id="fullname" name="fullname"><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="input_type_email">
+                    <div class="form-item">
+                        <div class="form-item column2">
+                            <label for="usermail">Email: </label><br>
+                            <input type="email" id="usermail" name="usermail"><br>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="select">
+                    <div class="form-item">
+                        <div class="form-item column1">
+                            <label for="browser">What is your favorite browser?</label>
+                            <select name="browser" id="browser">
+                                <option value="blank">SELECT</option>
+                                <option value="opera">Opera</option>
+                                <option value="edge">Microsoft Edge</option>
+                                <option value="chrome">Google Chrome</option>
+                            </select><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="input_type_checkbox">
+                    <div class="form-item">
+                        <div class="form-item column1">
+                            <label for="pet">Do you have a household pet?</label>
+                            <input type="checkbox" id="pet" name="pet"><br>
+                        </div>
+                    </div>
+                </div>
+                <label for="feedback">List the places you have lived.</label>
+                <textarea id="feedback" name="feedback" rows="4"></textarea>
+            </fieldset>
+            <input type="button" value="Submit Poll">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2025 | HTML Form - User Poll Activity | Rian Cardoso Christani
+    </footer>
+</body>
+</html>

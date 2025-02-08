@@ -265,7 +265,7 @@ button:hover{
 
 #company-info-text{
     text-align: center;
-    margin: 1rem;
+    margin: 0rem;
     font-size: 35px;
 }
 
@@ -279,8 +279,9 @@ figcaption{
 
 .border-radious{
     border: 3px var(--accent1-color) solid;
-    margin: 1rem 4rem;
+    margin: 1rem 4rem 1rem;
     border-radius: 30px;
+    align-content: center;
 }
 
 .images-employees{

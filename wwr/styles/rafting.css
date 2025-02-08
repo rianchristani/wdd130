@@ -1,19 +1,19 @@
 :root{
-    --primary-color: rgba(135, 168, 120);
+    --primary-color: rgb(135, 168, 120);
     --secondary-color: rgba(176, 188, 152);
     --accent1-color: rgba(199, 204, 185);
     --accent2-color: rgba(202, 226, 188);
 }
 
 h1{
-    color: white;
+    color: black;
     font-family: "Rubik", serif;
     font-weight: 700;
     font-style: normal;
 }
 
 h2{
-    color: white;
+    color: black;
     font-family: "Rubik", serif;
     font-weight: 700;
     font-style: normal;
@@ -25,6 +25,7 @@ p, figcaption {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    color: black;
 }
 
 #social-media{
@@ -33,11 +34,11 @@ p, figcaption {
 
 
 .hero h1{
-    background-color: rgba(0,0,0,0.5);
+    background-color:var(--primary-color);
     position: absolute;
     top: 170px;
     left: 8px;
-    color: white;
+    color: black;
     padding: 0px 245px;
 }
 
@@ -47,8 +48,8 @@ p, figcaption {
     top: 250px;
     left: 50px;
     width: 700px;
-    padding: 0.5rem;
-    color: white;
+    padding: 0.2rem;
+    color: black;
 }
 
 .hero article img{

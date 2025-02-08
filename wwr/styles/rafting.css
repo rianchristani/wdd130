@@ -230,20 +230,21 @@ input[type="checkbox"]{
 }
 
 .contact img{
-    width: 400px;
-    margin: 1rem;
-    align-items: center;
+    width: 185px;
 }
 
 .contact h1{
     font-size: 40px;
-    margin: 0;
+    margin: -1.4rem .5rem;
+    background-color: rgba(202, 226, 188);
+    border-radius: 10px;
+    padding: 1rem;
+
 }
 
 .contact h2{
-    margin: 0.5rem;
     text-align: left;
-    padding: 0.5rem;
+    padding: 2rem;
     
 }
 
@@ -274,11 +275,8 @@ figcaption{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color: white;
-    margin-top: -1rem;
+    color: black;
 }
-
-
 
 #map{
     margin: 1rem;
@@ -289,4 +287,11 @@ figcaption{
     border: 3px var(--accent1-color) solid;
     margin: 1rem 4rem;
     border-radius: 30px;
+}
+
+.images-employees{
+    display: flex;
+    background-color: rgba(202, 226, 188);
+    margin: 0.5rem;
+    border-radius: 10px;
 }

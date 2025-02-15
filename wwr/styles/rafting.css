@@ -167,7 +167,7 @@ footer img{
 fieldset{
     border: 1px solid var(--primary-color);
     display: grid;
-    margin: 1rem;
+    margin: .5rem;
     padding: 1rem;
 }
 
@@ -339,7 +339,7 @@ figcaption{
 .contactus-page{
     grid-column: 2 / 4;
     grid-row: 1 / 2;
-    padding: .5rem;
+    padding: 1rem;
     align-content: center;
     margin: 3rem;
     border: 5px solid var(--accent1-color);

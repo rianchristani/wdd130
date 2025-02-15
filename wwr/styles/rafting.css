@@ -92,6 +92,12 @@ nav a{
     padding: 5px 10px;
     text-decoration: none;
     color: black;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    align-content: center;
+    white-space: nowrap;
 }
 
 section{
@@ -138,7 +144,7 @@ footer{
 }
 
 footer p{
-    grid-column: 1/2;
+    grid-column: 1
 }
 
 footer img{
@@ -147,7 +153,7 @@ footer img{
 
 }
 
-form{
+#form-1{
     margin: 1rem auto;
     padding: 1rem;
     width: 50%;
@@ -207,7 +213,7 @@ input[type="checkbox"]{
 }
 
 button{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: black;
     font-size: 20px;
     font-family: "Rubik", serif;
@@ -289,4 +295,195 @@ figcaption{
     background-color: rgba(202, 226, 188);
     margin: 0.5rem;
     border-radius: 10px;
+}
+
+.homepage-frstsection img{
+    width: 800px;
+    height: auto;
+}
+
+.homepage-frstsection h1{
+    position: absolute;
+    color: white;
+    left: 180px;
+    top: 340px;
+    font-size: 40px;
+}
+
+.homepage-frstsection h2{
+    position: absolute;
+    color: white;
+    left: 220px;
+    top: 400px;
+}
+
+.black-square{
+    position: absolute;
+    width: 800px;
+    height: 497px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.form-contact-trip{
+    display: grid;
+}
+
+.newsletter{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: start;
+    justify-self: start;
+}
+
+.contactus-page{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    align-content: center;
+    margin: 3rem;
+    border: 5px solid var(--accent1-color);
+    border-radius: 30px;
+    background-color: var(--accent2-color);
+    color: black;
+    font-family: "Rubik", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.form-contact-trip form{
+    display: grid;
+}
+
+.form-contact-trip p{
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: .5rem
+}
+
+#form-2{
+    padding: 1rem;
+    width: 80%;
+    background-color: var(--accent2-color);
+    border-radius: 30px;
+    border: 5px solid var(--accent1-color);
+}
+
+fieldset label{
+    color: black;
+    font-family: "Rubik", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.images-homepage figure{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    background-color: var(--accent2-color);
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.images-homepage img{
+    width: 300px;
+    padding: 1rem;
+}
+
+.images-homepage figcaption{
+    font-size: 20px;
+    color: black;
+    font-family: "Rubik", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.trips{
+    display: grid;
+    align-items: center;
+}
+
+.trips img{
+    width: 400px;
+    height: auto;
+    margin: 1rem;
+    grid-column: 3;
+    border: 5px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+.trips h1{
+    position:relative;
+    top: 100%;
+    grid-column: 1;
+    background-color: var(--accent2-color);
+    margin: .5rem;
+    border-radius: 5px;
+}
+
+.trips p{
+    grid-column: 1;
+    text-align: center;
+    margin: 1rem;
+    border: 3px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.contact-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align:right;
+}
+
+.contact-section h1{
+    border-right: 2px solid black;
+    padding: .5rem;
+}
+
+.contact-section button{
+    width: 10rem;
+    height: 3rem;
+    margin: .5rem;
+    margin-top: 1.7rem;
+    padding: 0;
+    font-size: 15px;
+}
+
+table{
+    margin: 2rem 7rem;
+    padding: 1rem;
+    border-collapse: collapse
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+
+  th{
+    background-color: var(--accent2-color);
+  }
+
+  td{
+    background-color: var(--accent1-color);
+  }
+
+  td:nth-child(4) {
+    background-color: var(--secondary-color)
+}
+
+.wireframe-link{
+    position: absolute;
+    left: 50px;
+}
+
+.wireframe-link a{
+    color: black;
+    text-decoration: none;
 }

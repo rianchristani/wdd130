@@ -339,6 +339,7 @@ figcaption{
 .contactus-page{
     grid-column: 2 / 4;
     grid-row: 1 / 2;
+    padding: .5rem;
     align-content: center;
     margin: 3rem;
     border: 5px solid var(--accent1-color);
@@ -363,7 +364,8 @@ figcaption{
 
 #form-2{
     padding: 1rem;
-    width: 80%;
+    width: 300px;
+    margin: 1rem;
     background-color: var(--accent2-color);
     border-radius: 30px;
     border: 5px solid var(--accent1-color);
